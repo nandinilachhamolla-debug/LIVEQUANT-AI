@@ -1,5 +1,4 @@
-@'
-# Python
+﻿# Python
 __pycache__/
 *.py[cod]
 venv/
@@ -34,5 +33,6 @@ models/
 
 # OS files
 .DS_Store
-'@ | Set-Content -Encoding utf8 .gitignore
-data/processed/
+
+models/
+data/processed/*.json
