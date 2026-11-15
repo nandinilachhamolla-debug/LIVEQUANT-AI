@@ -1,0 +1,149 @@
+# LIVEQUANT AI 📈
+### AI-Powered Financial Market Analysis Platform
+
+LIVEQUANT AI is an intelligent financial market analysis platform designed to combine Machine Learning, data analytics, and anomaly detection to support market monitoring and experimental trend analysis.
+
+The platform focuses on two financial domains:
+- **Indian Equity Market:** NSE historical equity data processing, feature engineering, and experimental market trend classification.
+- **Cryptocurrency Market:** Market monitoring, analytics, and anomaly detection through the existing backend.
+
+---
+
+## 🎯 Problem Statement
+
+Financial market data is continuously generated, making manual monitoring and analysis challenging. Identifying unusual market behaviour and analysing historical trends requires efficient data processing and intelligent analytical tools.
+
+## 💡 Our Solution
+
+LIVEQUANT AI provides a unified dashboard for financial market monitoring and intelligent analysis.
+
+It uses machine learning algorithms to analyse historical market data, identify unusual patterns, and experiment with market trend classification.
+
+## 🤖 Machine Learning Algorithms
+
+| Algorithm | Purpose |
+|---|---|
+| Logistic Regression | Baseline market trend classification |
+| Random Forest | Comparison model for trend classification |
+| Isolation Forest | Identification of unusual market patterns |
+
+**Note:** NSE model training is currently guarded because the available dataset does not yet contain sufficient historical trading sessions and valid next-day labels.
+
+## 🛠️ Technology Stack
+
+**Frontend**
+- React.js
+- JavaScript
+- HTML5
+- CSS3
+- Data visualization
+
+**Backend**
+- Python
+- Flask / existing backend services
+- REST APIs
+
+**Machine Learning**
+- Scikit-learn
+- Pandas
+- NumPy
+- Logistic Regression
+- Random Forest
+- Isolation Forest
+
+**Data**
+- NSE historical equity data
+- Cryptocurrency market data
+
+## 📊 Key Features
+
+- Unified financial market dashboard
+- Cryptocurrency market monitoring
+- Historical NSE equity data preprocessing
+- Feature engineering for equity analysis
+- Experimental market trend classification
+- Anomaly detection using Isolation Forest
+- Machine learning model comparison
+- Market analytics and visualization
+
+## 🏗️ Project Architecture
+
+1. Data Collection – Collect historical financial market data.
+2. Data Preprocessing – Clean and organize raw market data.
+3. Feature Engineering – Generate analytical features from historical prices.
+4. Machine Learning – Apply classification and anomaly detection algorithms.
+5. Backend Processing – Process data and provide API responses.
+6. Dashboard – Display market information and analytical results.
+
+## 📁 Project Structure
+
+```text
+LIVEQUANT-AI/
+│
+├── frontend/
+│   ├── src/
+│   └── public/
+│
+├── backend/
+│   ├── services/
+│   │   └── equity_model.py
+│   ├── data/
+│   └── app.py
+│
+├── data/
+│   ├── raw/
+│   └── processed/
+│
+├── requirements.txt
+├── README.md
+└── .gitignore
+```
+
+*The structure above illustrates the intended organization; adjust paths to match the actual repository.*
+
+## 🚧 Current Development Status
+
+- [x] Initial dashboard development
+- [x] Existing cryptocurrency backend
+- [x] NSE historical data preprocessing
+- [x] Equity feature-engineering scripts
+- [x] Initial machine learning experiments
+- [ ] Sufficient multi-session NSE historical dataset
+- [ ] Guarded NSE model pipeline
+- [ ] Valid chronological model evaluation
+- [ ] Backtesting engine
+- [ ] Paper trading integration
+- [ ] Complete application deployment
+
+## ⚠️ Important Limitations
+
+- NSE equity analysis currently uses historical data.
+- The available dataset has insufficient trading sessions for valid rolling indicators and next-day labels.
+- NSE model training and performance evaluation must wait until sufficient valid historical data is available.
+- No NSE live market connectivity is currently claimed.
+- Automated trading and paper trading are future development stages.
+
+## 🚀 Future Enhancements
+
+- Expand historical NSE data collection.
+- Implement robust model validation.
+- Develop a historical backtesting engine.
+- Introduce paper trading functionality.
+- Improve dashboard analytics.
+- Explore additional machine learning and deep learning techniques.
+- Deploy the complete platform.
+
+## 👩‍💻 Project
+
+**Project Name:** LIVEQUANT AI  
+**Domain:** Artificial Intelligence and Machine Learning  
+**Focus:** Financial Market Analysis  
+**Markets:** Indian Equities and Cryptocurrency
+
+## 📌 Disclaimer
+
+LIVEQUANT AI is an educational and experimental project. Its analytical outputs are not financial advice or guaranteed market predictions. It does not currently provide verified NSE live trading or automated execution.
+
+---
+
+### Built with AI, Machine Learning and Financial Data Analytics 🚀
