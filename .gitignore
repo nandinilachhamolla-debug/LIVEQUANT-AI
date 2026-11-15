@@ -1,0 +1,38 @@
+@'
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Development tools
+.vscode/
+.refact/
+
+# Frontend
+node_modules/
+dist/
+build/
+
+# NSE datasets
+data/raw/
+data/processed/*.csv
+data/processed/*.parquet
+
+# Generated model artifacts
+models/
+
+# Temporary files
+*.tmp
+*.log
+*.zip
+
+# OS files
+.DS_Store
+'@ | Set-Content -Encoding utf8 .gitignore
+data/processed/
